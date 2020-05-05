@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1186B6902461C00B00B40CBC /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186B68F2461C00B00B40CBC /* RingView.swift */; };
+		1186B6922461E16D00B40CBC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186B6912461E16D00B40CBC /* Modifiers.swift */; };
+		1186B6AC2461E42300B40CBC /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1186B6962461E42300B40CBC /* WorkSans-Regular.ttf */; };
+		1186B6BD2461E42300B40CBC /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1186B6A72461E42300B40CBC /* WorkSans-Bold.ttf */; };
+		1186B6BF2461E42300B40CBC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1186B6A92461E42300B40CBC /* OFL.txt */; };
+		1186B6C22461ECD200B40CBC /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186B6C12461ECD200B40CBC /* CourseList.swift */; };
 		11A2A3E5245D9B0100A03307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A2A3E4245D9B0100A03307 /* AppDelegate.swift */; };
 		11A2A3E7245D9B0100A03307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A2A3E6245D9B0100A03307 /* SceneDelegate.swift */; };
 		11A2A3E9245D9B0100A03307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A2A3E8245D9B0100A03307 /* ContentView.swift */; };
@@ -44,6 +49,11 @@
 
 /* Begin PBXFileReference section */
 		1186B68F2461C00B00B40CBC /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		1186B6912461E16D00B40CBC /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		1186B6962461E42300B40CBC /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		1186B6A72461E42300B40CBC /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		1186B6A92461E42300B40CBC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		1186B6C12461ECD200B40CBC /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		11A2A3E1245D9B0100A03307 /* SwiftUI Lesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Lesson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A2A3E4245D9B0100A03307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A2A3E6245D9B0100A03307 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1186B6932461E42300B40CBC /* Work_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				1186B6962461E42300B40CBC /* WorkSans-Regular.ttf */,
+				1186B6A72461E42300B40CBC /* WorkSans-Bold.ttf */,
+				1186B6A92461E42300B40CBC /* OFL.txt */,
+			);
+			path = Work_Sans;
+			sourceTree = "<group>";
+		};
 		11A2A3D8245D9B0100A03307 = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +139,17 @@
 				11A2A3E6245D9B0100A03307 /* SceneDelegate.swift */,
 				11A2A3E8245D9B0100A03307 /* ContentView.swift */,
 				1186B68F2461C00B00B40CBC /* RingView.swift */,
+				1186B6912461E16D00B40CBC /* Modifiers.swift */,
 				11D6BC24245F633D00E01E2D /* Home.swift */,
 				11B09CAE2460AE05004DAC56 /* HomeView.swift */,
+				1186B6C12461ECD200B40CBC /* CourseList.swift */,
 				11D6BC22245F5B6E00E01E2D /* MenuView.swift */,
 				11B09CB02460B981004DAC56 /* UpdateList.swift */,
 				11B09CB22460BD20004DAC56 /* UpdateDetail.swift */,
 				11B09CB42460BFEA004DAC56 /* UpdateStore.swift */,
 				11B09CB62460C308004DAC56 /* TabBar.swift */,
 				11A2A3EA245D9B0400A03307 /* Assets.xcassets */,
+				1186B6932461E42300B40CBC /* Work_Sans */,
 				11A2A3EF245D9B0400A03307 /* LaunchScreen.storyboard */,
 				11A2A3F2245D9B0400A03307 /* Info.plist */,
 				11A2A3EC245D9B0400A03307 /* Preview Content */,
@@ -265,8 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A2A3F1245D9B0400A03307 /* LaunchScreen.storyboard in Resources */,
+				1186B6BF2461E42300B40CBC /* OFL.txt in Resources */,
+				1186B6BD2461E42300B40CBC /* WorkSans-Bold.ttf in Resources */,
 				11A2A3EE245D9B0400A03307 /* Preview Assets.xcassets in Resources */,
 				11A2A3EB245D9B0400A03307 /* Assets.xcassets in Resources */,
+				1186B6AC2461E42300B40CBC /* WorkSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +321,7 @@
 				11B09CB52460BFEA004DAC56 /* UpdateStore.swift in Sources */,
 				11B09CB12460B981004DAC56 /* UpdateList.swift in Sources */,
 				11D6BC23245F5B6E00E01E2D /* MenuView.swift in Sources */,
+				1186B6922461E16D00B40CBC /* Modifiers.swift in Sources */,
 				11B09CB32460BD20004DAC56 /* UpdateDetail.swift in Sources */,
 				1186B6902461C00B00B40CBC /* RingView.swift in Sources */,
 				11D6BC25245F633D00E01E2D /* Home.swift in Sources */,
@@ -302,6 +329,7 @@
 				11A2A3E7245D9B0100A03307 /* SceneDelegate.swift in Sources */,
 				11A2A3E9245D9B0100A03307 /* ContentView.swift in Sources */,
 				11B09CB72460C308004DAC56 /* TabBar.swift in Sources */,
+				1186B6C22461ECD200B40CBC /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
